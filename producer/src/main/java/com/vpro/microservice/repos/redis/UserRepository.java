@@ -10,9 +10,9 @@ import com.vpro.microservice.entities.redis.User;
 @Repository
 public class UserRepository {
     public static final String HASH_KEY = "User";
-    private RedisTemplate<String,User> redisTemplate;
+    private RedisTemplate<String,Object> redisTemplate;
 
-    public UserRepository(RedisTemplate<String,User> redisTemplate) {
+    public UserRepository(RedisTemplate<String,Object> redisTemplate) {
         this.redisTemplate = redisTemplate;
     }
 
