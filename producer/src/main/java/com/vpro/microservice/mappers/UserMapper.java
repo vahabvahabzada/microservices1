@@ -3,6 +3,7 @@ package com.vpro.microservice.mappers;
 import org.springframework.stereotype.Component;
 
 import com.vpro.microservice.dtos.UserDto;
+import com.vpro.microservice.entities.IUser;
 import com.vpro.microservice.entities.User;
 
 @Component
@@ -14,7 +15,7 @@ public class UserMapper {
         return user;
     }
 
-    public UserDto entityToDto(User user) {
+    public UserDto entityToDto(IUser user) {
         UserDto userDto = new UserDto();
         if (user.getId() != null) {
             userDto.setId(user.getId());
