@@ -16,7 +16,7 @@ public class Consumer {
         this.message = message;
     }
 
-    public String getProcessedMessage() {
+    public String getMessage() {
         return this.message;
     }
 }

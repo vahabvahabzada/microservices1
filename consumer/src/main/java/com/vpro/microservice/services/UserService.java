@@ -13,6 +13,6 @@ public class UserService {
     }
 
     public String getFromMQ() {
-        return consumer.getProcessedMessage();
+        return consumer.getMessage();
     }
 }

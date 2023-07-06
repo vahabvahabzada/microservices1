@@ -17,21 +17,28 @@ import com.vpro.microservice.services.UserService;
 @RestController
 public class UserController {
     private UserService userService;
-    public UserController(UserService userService){
-        this.userService=userService;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
     }
+
     @PostMapping("/add")
-    public ResponseEntity<UserDto> addUser(@RequestBody UserDto userDto) throws IOException, TimeoutException{
-        return new ResponseEntity<UserDto>(userService.addUserToMQ(userDto),HttpStatus.OK);
+    public ResponseEntity<UserDto> addUser(@RequestBody UserDto userDto) throws IOException, TimeoutException {
+        return new ResponseEntity<UserDto>(userService.addUserToMQ(userDto), HttpStatus.OK);
     }
 
     @GetMapping("/recview")
-    public ResponseEntity<List<UserDto>> recentlyViewed(){
+    public ResponseEntity<List<UserDto>> recentlyViewed() {
         return new ResponseEntity<List<UserDto>>(userService.recent(), HttpStatus.OK);
     }
 
-    @GetMapping("/viewAll")
-    public ResponseEntity<List<UserDto>> viewAll(){
+    @GetMapping("/view-all")
+    public ResponseEntity<List<UserDto>> viewAll() {
         return new ResponseEntity<List<UserDto>>(userService.viewAll(), HttpStatus.OK);
+    }
+
+    @PostMapping("/save")
+    public ResponseEntity<UserDto> save(@RequestBody UserDto userDto) {
+        return new ResponseEntity<UserDto>(userService.save(userDto), HttpStatus.OK);
     }
 }

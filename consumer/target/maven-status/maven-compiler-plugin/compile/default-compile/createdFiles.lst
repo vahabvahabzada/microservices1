@@ -1,0 +1,6 @@
+com\vpro\microservice\services\UserService.class
+com\vpro\microservice\dtos\UserDto.class
+com\vpro\microservice\controllers\UserController.class
+com\vpro\microservice\communication\Consumer.class
+com\vpro\microservice\ConsumerApp.class
+com\vpro\microservice\configs\MessageConfig.class

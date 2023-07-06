@@ -1,0 +1,13 @@
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\services\UserService.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\communication\Publisher.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\entities\User.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\dtos\UserDto.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\configs\RedisConfig.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\entities\redis\User.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\repos\spring\UserJpaRepository.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\entities\IUser.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\controllers\UserController.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\repos\redis\UserRepository.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\mappers\UserMapper.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\configs\MessageConfig.java
+C:\Users\vahab\Desktop\JavaProjects\kibrittasks\microservices1\producer\src\main\java\com\vpro\microservice\ProducerApp.java
